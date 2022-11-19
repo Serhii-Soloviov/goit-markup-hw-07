@@ -1,0 +1,25 @@
+.contacts {
+  &__link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: $third-text-color;
+    display: flex;
+    align-items: center;
+    transition-property: color;
+    transition-duration: $trans-dur;
+    transition-timing-function: $trans-tf;
+  }
+  &__icon {
+    fill: currentColor;
+    /* display: inline-block; */
+    margin-right: 10px;
+  }
+  &__link:hover,
+  &__link:focus,
+  &__icon:hover,
+  &__icon:focus {
+    color: $hover-text-color;
+  }
+}

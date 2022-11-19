@@ -1,0 +1,13 @@
+.footer {
+  background-color: $dark-bg;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &__container {
+    display: flex;
+    align-items: baseline;
+  }
+  &__logo {
+    color: $second-text-color;
+  }
+}

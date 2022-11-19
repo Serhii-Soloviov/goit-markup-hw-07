@@ -1,0 +1,37 @@
+.customers {
+  background-color: $light-bg;
+}
+.customers-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 30px;
+
+  &__link {
+  border: 1px solid $border-main-color;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $link-fill-color;
+  padding: 15px 31px;
+
+  width: 170px;
+  height: 92px;
+
+  transition-property: color, border;
+  transition-duration: $trans-dur;
+  transition-timing-function: $trans-tf;
+}
+&__link:hover,
+&__link:focus {
+  border: 1px solid $hover-bg-link;
+  color: $hover-bg-link;
+}
+&__icon {
+  fill: currentColor;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+}

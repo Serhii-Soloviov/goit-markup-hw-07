@@ -1,0 +1,19 @@
+.social-icons {
+  &__link--footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: $main-footer-color;
+
+    transition-property: background-color;
+    transition-duration: $trans-dur;
+    transition-timing-function: $trans-tf;
+  }
+
+  &__logo--footer {
+    fill: currentColor;
+  }
+  &__link--footer:hover,
+  &__link--footer:focus {
+    background-color: $hover-bg-link;
+  }
+}
+

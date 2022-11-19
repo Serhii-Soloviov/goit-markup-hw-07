@@ -22,6 +22,7 @@
   --bg-image-works: rgba(47, 48, 58, 0.8);
   /* border-color */
   --portfolio-border: #eeeeee;
+  --border-block-color: 
   /* anime */
   --trans-dur: 250ms;
   --trans-tf: cubic-bezier(0.4, 0, 0.2, 1);
@@ -577,7 +578,6 @@ img {
 } */
 .portfolio-cards__inner {
   padding: 20px 24px;
-  border: 1px solid var(--border-block-color);
   border-top: none;
   border-bottom: 1px solid var(--portfolio-border);
   border-left: 1px solid var(--portfolio-border);
